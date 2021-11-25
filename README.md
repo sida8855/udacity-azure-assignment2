@@ -15,6 +15,7 @@ The project plan is composed with Excel and a Trello board will be used to track
 ![Architectural Diagram](./screenshot/CICD_Architecture.png "Architectural Diagram")
 
 * Project cloned into Azure Cloud Shell
+
 Open Azure shell and pair the SSH keys with your GitHub account. Then we can clone the repo with command:
 ```
 git clone git@github.com:sida8855/udacity-azure-assignment2.git
@@ -48,6 +49,7 @@ The result is like following:
 ![WebApp Log](./screenshot/LogTail.png "WebApp Log")
 
 * Set up GitHub Actions
+
 Create a new workflow using GitHub Actions. Click "set up a workflow yourself" and using following yml template:
 ```
 name: Python application test with Github Actions
@@ -79,11 +81,11 @@ Now you will see the status of the workflow. And this workflow will start automa
 ![GitHub Actions](./screenshot/GitHubAction.png "GitHub Actions")
 
 * Set up Azure Pipeline
+
 Following the steps documented by Microsoft. [Set up Azure Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
 After successful set up, you will see following:
 
-* Running Azure App Service from Azure Pipelines automatic deployment
-ToDO
 
 
 ## Enhancements
