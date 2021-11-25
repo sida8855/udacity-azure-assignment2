@@ -1,7 +1,7 @@
 # Overview
 
 This project is the second assignment for Udacity Azure DevOps nanodegree program. 
-In this project we will start with a project plan and visualize it in Trello. Then we will deploy a flask based webapp to Azure WebApp. Using GitHub Action any new commit to this Git will trigger a build and quality check. And a Azure DevOps Pipeline will also trigger an automatic deployment on Azure WebApp. So we can achive a complete CI/CD chain.
+In this project we will start with a project plan and visualize it in Trello. Then we will deploy a flask based webapp to Azure WebApp. Using GitHub Action to trigger a build and quality check if any new commit to this Git happens. And a Azure DevOps Pipeline will also trigger an automatic deployment on Azure WebApp. So we can achive a complete CI/CD chain.
 
 ## Project Plan
 The project plan is composed with Excel and a Trello board will be used to track the progress.
