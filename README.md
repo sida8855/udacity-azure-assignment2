@@ -41,6 +41,9 @@ Then we can run the following command:
 ```
 az webapp up -n <webapp_name> -g <resource_group> -l westeurope --sku B1
 ```
+You will find the webapp is running in the portal:
+![WebApp in Azure Portal](./screenshot/AzureWebApp.png "WebApp in Azure Portal")
+
 To run the prediction, you need to adapt the file "make_predict_azure_app.sh" line 28 to replace the application with your defined name. Then we can run `./make_predict_azure_app.sh`. You shall see followings if it runs correctly:
 ![Run Prediction on Azure WebApp](./screenshot/RunPredictionAzure.png "Run Prediction on Azure WebApp")
 
