@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/sida8855/udacity-azure-assignment2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/sida8855/udacity-azure-assignment2/actions/workflows/pythonapp.yml)
+
 # Overview
 
 This project is the second assignment for Udacity Azure DevOps nanodegree program. 
