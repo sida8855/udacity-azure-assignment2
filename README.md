@@ -97,6 +97,6 @@ After successful set up, you will see following:
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+<TODO: Add link YouTube>
 
 
