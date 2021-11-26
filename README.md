@@ -88,8 +88,18 @@ Now you will see the status of the workflow. And this workflow will start automa
 Following the steps documented by Microsoft. [Set up Azure Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 After successful set up, you will see following:
+![Azure Pipeline](./screenshot/AzurePipeline.png "Azure Pipeline")
 
+* Load Test using Locust
 
+Using Python module locust we can run load test to our web application.
+
+  -- Install locust `pip install locust`
+  
+  -- Run locust `locust`
+
+Then open http://localhost:8089 and give the address of our web application and we can see some result:
+![locust load test](./screenshot/locust.png "locust load test")
 
 ## Enhancements
 * More detailed tests using test scripts
