@@ -27,7 +27,8 @@ git clone git@github.com:sida8855/udacity-azure-assignment2.git
 * Project running on Azure App Service
   - run `make setupenv` to set up a virtual python environment 
   - run `source ~/.udacity-devops/bin/activate` to activate virtual environment
-  - run `make all` to install dependencies and run lint check and test the code
+  - run `make all` to install dependencies and run lint check and test the code, if successful you will see like following:
+  ![make all finished](./screenshot/makeallfinished.png "make all finished")
 
 If you want to run the code first on localhost, you can run `python app.py`. If you want to see the prediction result, please open a new terminal and run `./make_prediction.sh`. If the app is running correctly, you will see following:
 ![Run Prediction on localhost](./screenshot/RunPredictionLocal.png "Run Prediction on localhost")
