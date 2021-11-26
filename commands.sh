@@ -1,0 +1,1 @@
+az webapp up -n udacity-assignment2-webapp -g UdacityWebApp -l westeurope --sku B1
